@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://code.jquery.com/jquery-3.4.1.js" integrity="sha256-WpOohJOqMqqyKL9FccASB9O0KwACQJpFTUBLTYOVvVU=" crossorigin="anonymous"></script>
+    <script src="/socket.io/socket.io.js"></script>
+    <script defer src="script.js"></script>
+</head>
+
+<body>
+    <div id="login">
+        <h1 id="h1">Chat App</h1>
+        <input type="text" required placeholder="username" id="username">
+        <button type="submit" id="loginbtn">Start</button>
+    </div>
+    <div id="chatbox">
+        <div class="heading">
+            <h1>Chat App</h1>
+        </div>
+        <div id="chatbody">
+        </div>
+        <div id="inputs">
+            <input type="text" placeholder="user(Default Everyone)" id="userid">
+            <input type="text" placeholder="send message" id="sendmsg">
+            <button type="button" id="send">Send</button>
+        </div>
+    </div>
+    <audio src="tune.mp3" id="tune" type='mp3'></audio>
+</body>
+
+</html>
