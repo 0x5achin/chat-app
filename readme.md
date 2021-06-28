@@ -8,5 +8,5 @@ A chat Application built with Nodejs and socket.io
 1. Clone the Repo
 2. run ``` npm install  ``` from CLI
 3. run node server by typing ``` node app.js ``` or ```npm run dev```
-4. finally, open your browser and visit ```localhost:3333```
+4. Now open your browser and visit ```localhost:3333```
 
